@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon "  type="image-x-png" href="assets/lampada-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Testador de Lampada - Desenvolvido por Pedro Souza..</title>
+</head>
+<body>
+
+   <main>
+
+        <div class="container">
+
+                <div class="title">
+                  <h1>Testador de Lampada!</h1>
+                </div><!--title-->
+
+                <div class="img-conteudo">
+                    <img id="myImage" src="assets/lampada-apagada.png" alt="lampada-apagada">
+                </div><!--img-conteudo-->
+               
+                <div class="flex-button">
+
+                    <button class="btn-ligado" onclick="document.getElementById('myImage').src='assets/lampada-ligada.png'">
+                        <span>Acender</span>
+                    </button><!--Acender-->
+
+                    <button class="btn-apagado" onclick="document.getElementById('myImage').src='assets/lampada-apagada.png'">
+                        <span>Apagar</span>
+                    </button><!--btn-apagado-->
+
+              </div><!--flex-button-->
+
+              <div class="autor">
+                  <h2> <span>©</span> Desenvolvido por Pedro Souza</h2>
+              </div><!--autor-->
+
+        </div><!--container-->
+        
+   </main>
+
+</body>
+</html>
